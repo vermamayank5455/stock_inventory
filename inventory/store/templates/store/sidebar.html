@@ -1,0 +1,128 @@
+ <!-- Sidebar -->
+ <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/admin-se/index/">
+        <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Shakti Enterprises</div>
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item">
+        <a class="nav-link" href="/admin-se/index/">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Dashboard</span>
+        </a>
+    </li>
+
+    <hr class="sidebar-divider">
+
+    <!-- Heading -->
+    <div class="sidebar-heading">
+        Addons
+    </div>
+
+<!--       
+       <li class="nav-item">
+        <a class="nav-link" href="/admin-se/sales/">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Add Sales</span></a>
+    </li> -->
+
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item ">
+        <a class="nav-link" href="/admin-se/blank/" >
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Add New Product</span>
+        </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true"
+            aria-controls="collapsePages">
+            <i class="fas fa-fw fa-folder"></i>
+            <span> Purchase</span></a>
+            <div id="collapsePages" class="collapse " aria-labelledby="headingPages"
+            data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                
+                <a class="collapse-item" href="/admin-se/purchase/">Add New Purchase</a>
+                <a class="collapse-item" href="/admin-se/purchase_records/">Purchase records</a>
+               
+            </div>
+        </div>
+    </li>
+
+
+<!--         
+          <li class="nav-item">
+            <a class="nav-link" href="/admin-se/sales/">
+                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <span>Add Sales</span></a>
+        </li> -->
+
+        <li class="nav-item ">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#m1" aria-expanded="true"
+                aria-controls="#m1">
+                <i class="fas fa-fw fa-folder"></i>
+                <span> Sales</span></a>
+                <div id="m1" class="collapse " aria-labelledby="headingPages"
+                data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    
+                    <a class="collapse-item" href="/admin-se/sales/">Add Sales</a>
+                    <a class="collapse-item" href="/admin-se/sales_records/">Sales records</a>
+                   
+                </div>
+            </div>
+        </li>
+
+
+
+ 
+        <li class="nav-item">
+            <a class="nav-link collapsed"  data-toggle="collapse" data-target="#mayank"
+                aria-expanded="true" aria-controls="#mayank">
+                <i class="fas fa-fw fa-wrench"></i>
+                
+                <span>Billing</span>
+            </a>
+            <div id="mayank" class="collapse" aria-labelledby="headingUtilities"
+                data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                   
+                    <a class="collapse-item" href="/admin-se/bill_purchase/">Purchase</a>
+                    <a class="collapse-item" href="/admin-se/bill_sales/">Sales</a>
+                    
+                </div>
+            </div>
+        </li>
+   
+
+   
+     <!-- Nav Item - Tables -->
+     <li class="nav-item">
+        <a class="nav-link" href="/admin-se/history/">
+            <i class="fas fa-fw fa-table"></i>
+            <span>History</span></a>
+    </li>
+    <li class="nav-item">
+                        <a class="nav-link" href="/admin/loginForm/" data-toggle="modal" data-target="#logoutModal">
+                            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                            Logout
+                        </a>      
+    </li>
+    <!-- Divider -->
+    <hr class="sidebar-divider d-none d-md-block">
+
+    <!-- Sidebar Toggler (Sidebar) -->
+    <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+
+</ul>
+<!-- End of Sidebar -->

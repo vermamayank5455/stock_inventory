@@ -1,4 +1,4 @@
-inventory management software
+<h4> Inventory management software <h4>
 
 This is an inventory management system written in Python 3.6.5 and Django 2.0.7 and datatables is a Jquery plugin. </br>
 The local installation of python 32/64bit is provided with the project as "python-3.7.0.exe/python-3.7.0-amd64.exe".  </br>
